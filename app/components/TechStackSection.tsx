@@ -110,9 +110,10 @@ export default function TechStackSection() {
         </div>
 
         {/* Category summary */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mt-12">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-3 mt-12">
           {[
             { label: "Mobile", count: 4, emoji: "📱" },
+            { label: "Desktop", count: 2, emoji: "💻" },
             { label: "Web / Frontend", count: 6, emoji: "🌐" },
             { label: "Backend", count: 4, emoji: "⚙️" },
             { label: "Database", count: 4, emoji: "🗄️" },
